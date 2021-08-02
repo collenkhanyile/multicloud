@@ -1,12 +1,12 @@
-terraform {
-  backend "remote" {
-    organization = "masterclass"
+# terraform {
+#   backend "remote" {
+#     organization = "masterclass"
 
-    workspaces {
-      name = "workspace-develop"
-    }
-  }
-}
+#     workspaces {
+#       name = "workspace-develop"
+#     }
+#   }
+# }
 
 
 resource "aws_vpc" "primary_vpc" {
